@@ -1,0 +1,449 @@
+[
+  {
+    "columnNumber": 1,
+    "era": "Ancient era",
+    "techCost": 22,
+    "buildingCost": 45,
+    "wonderCost": 100,
+    "techs": [
+      {
+        "name": "Agriculture",
+        "row": 1
+      },
+      {
+        "name": "Pottery",
+        "row": 2
+      },
+      {
+        "name": "Alphabet",
+        "row": 3
+      },
+      {
+        "name": "Bronze Working",
+        "row": 4
+      },
+      {
+        "name": "Horseback Riding",
+        "row": 5
+      }
+    ]
+  },
+  {
+    "columnNumber": 2,
+    "era": "Ancient era",
+    "techCost": 40,
+    "buildingCost": 50,
+    "wonderCost": 110,
+    "techs": [
+      {
+        "name": "Ceremonial Burial",
+        "row": 1,
+        "prerequisites": [
+          "Pottery"
+        ]
+      },
+      {
+        "name": "Masonry",
+        "row": 2,
+        "prerequisites": [
+          "Pottery"
+        ]
+      },
+      {
+        "name": "Iron Working",
+        "row": 3,
+        "prerequisites": [
+          "Bronze Working"
+        ]
+      },
+      {
+        "name": "Writing",
+        "row": 4,
+        "prerequisites": [
+          "Alphabet"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 3,
+    "era": "Ancient era",
+    "techCost": 65,
+    "buildingCost": 55,
+    "wonderCost": 130,
+    "techs": [
+      {
+        "name": "Code of Laws",
+        "row": 1,
+        "prerequisites": [
+          "Writing"
+        ]
+      },
+      {
+        "name": "Literacy",
+        "row": 2,
+        "prerequisites": [
+          "Writing"
+        ]
+      },
+      {
+        "name": "Mathematics",
+        "row": 3,
+        "prerequisites": [
+          "Masonry",
+          "Writing"
+        ]
+      },
+      {
+        "name": "Construction",
+        "row": 4,
+        "prerequisites": [
+          "Masonry",
+          "Iron Working"
+        ]
+      },
+      {
+        "name": "Irrigation",
+        "row": 5,
+        "prerequisites": [
+          "Masonry"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 4,
+    "era": "Medieval era",
+    "techCost": 95,
+    "buildingCost": 65,
+    "wonderCost": 150,
+    "techs": [
+      {
+        "name": "Currency",
+        "row": 1,
+        "prerequisites": [
+          "Bronze Working",
+          "Code of Laws"
+        ]
+      },
+      {
+        "name": "Monarchy",
+        "row": 2,
+        "prerequisites": [
+          "Code of Laws",
+          "Ceremonial Burial"
+        ]
+      },
+      {
+        "name": "Democracy",
+        "row": 3,
+        "prerequisites": [
+          "Code of Laws",
+          "Literacy"
+        ]
+      },
+      {
+        "name": "Engineering",
+        "row": 4,
+        "prerequisites": [
+          "Construction",
+          "Mathematics"
+        ]
+      },
+      {
+        "name": "Navigation",
+        "row": 5,
+        "prerequisites": [
+          "Mathematics",
+          "Writing"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 5,
+    "era": "Medieval era",
+    "techCost": 135,
+    "buildingCost": 75,
+    "wonderCost": 175,
+    "techs": [
+      {
+        "name": "Banking",
+        "row": 1,
+        "prerequisites": [
+          "Currency",
+          "Literacy"
+        ]
+      },
+      {
+        "name": "Feudalism",
+        "row": 2,
+        "prerequisites": [
+          "Monarchy",
+          "Horseback Riding"
+        ]
+      },
+      {
+        "name": "Religion",
+        "row": 3,
+        "prerequisites": [
+          "Monarchy",
+          "Ceremonial Burial"
+        ]
+      },
+      {
+        "name": "Invention",
+        "row": 4,
+        "prerequisites": [
+          "Engineering",
+          "Literacy"
+        ]
+      },
+      {
+        "name": "University",
+        "row": 5,
+        "prerequisites": [
+          "Democracy",
+          "Mathematics"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 6,
+    "era": "Industrial era",
+    "techCost": 185,
+    "buildingCost": 90,
+    "wonderCost": 210,
+    "techs": [
+      {
+        "name": "Gunpowder",
+        "row": 1,
+        "prerequisites": [
+          "Invention",
+          "Feudalism"
+        ]
+      },
+      {
+        "name": "Metallurgy",
+        "row": 2,
+        "prerequisites": [
+          "University",
+          "Engineering",
+          "Iron Working"
+        ]
+      },
+      {
+        "name": "Printing Press",
+        "row": 3,
+        "prerequisites": [
+          "University",
+          "Religion"
+        ]
+      },
+      {
+        "name": "Steam Power",
+        "row": 4,
+        "prerequisites": [
+          "Invention",
+          "Iron Working"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 7,
+    "era": "Industrial era",
+    "techCost": 245,
+    "buildingCost": 105,
+    "wonderCost": 245,
+    "techs": [
+      {
+        "name": "Combustion",
+        "row": 1,
+        "prerequisites": [
+          "Gunpowder",
+          "Steam Power",
+          "Metallurgy"
+        ]
+      },
+      {
+        "name": "Electricity",
+        "row": 2,
+        "prerequisites": [
+          "Steam Power",
+          "Metallurgy"
+        ]
+      },
+      {
+        "name": "Industrialization",
+        "row": 3,
+        "prerequisites": [
+          "Steam Power",
+          "Banking"
+        ]
+      },
+      {
+        "name": "Railroad",
+        "row": 4,
+        "prerequisites": [
+          "Steam Power"
+        ]
+      },
+      {
+        "name": "Steel",
+        "row": 5,
+        "prerequisites": [
+          "Steam Power",
+          "Metallurgy"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 8,
+    "era": "Modern era",
+    "techCost": 320,
+    "buildingCost": 120,
+    "wonderCost": 300,
+    "techs": [
+      {
+        "name": "Atomic Theory",
+        "row": 1,
+        "prerequisites": [
+          "Electricity",
+          "University"
+        ]
+      },
+      {
+        "name": "The Automobile",
+        "row": 2,
+        "prerequisites": [
+          "Combustion",
+          "Steel"
+        ]
+      },
+      {
+        "name": "Communism",
+        "row": 3,
+        "prerequisites": [
+          "Industrialization",
+          "University"
+        ]
+      },
+      {
+        "name": "The Corporation",
+        "row": 4,
+        "prerequisites": [
+          "Industrialization",
+          "Banking"
+        ]
+      },
+      {
+        "name": "Flight",
+        "row": 5,
+        "prerequisites": [
+          "Combustion"
+        ]
+      },
+      {
+        "name": "Mass Production",
+        "row": 6,
+        "prerequisites": [
+          "Railroad",
+          "Industrialization"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 9,
+    "era": "Modern era",
+    "techCost": 410,
+    "buildingCost": 140,
+    "wonderCost": 360,
+    "techs": [
+      {
+        "name": "Advanced Flight",
+        "row": 1,
+        "prerequisites": [
+          "Flight",
+          "Industrialization"
+        ]
+      },
+      {
+        "name": "Electronics",
+        "row": 2,
+        "prerequisites": [
+          "The Corporation",
+          "Electricity"
+        ]
+      },
+      {
+        "name": "Mass Media",
+        "row": 3,
+        "prerequisites": [
+          "The Corporation",
+          "Printing Press"
+        ]
+      },
+      {
+        "name": "Nuclear Power",
+        "row": 4,
+        "prerequisites": [
+          "Atomic Theory",
+          "Mass Production"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 10,
+    "era": "Modern era",
+    "techCost": 520,
+    "buildingCost": 160,
+    "wonderCost": 420,
+    "techs": [
+      {
+        "name": "Networking",
+        "row": 1,
+        "prerequisites": [
+          "Electronics"
+        ]
+      },
+      {
+        "name": "Space Flight",
+        "row": 2,
+        "prerequisites": [
+          "Nuclear Power",
+          "Electronics",
+          "Advanced Flight"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 11,
+    "era": "Modern era",
+    "techCost": 640,
+    "buildingCost": 180,
+    "wonderCost": 480,
+    "techs": [
+      {
+        "name": "Globalization",
+        "row": 1,
+        "prerequisites": [
+          "Networking",
+          "Mass Media"
+        ]
+      },
+      {
+        "name": "Superconductor",
+        "row": 2,
+        "prerequisites": [
+          "Space Flight"
+        ]
+      }
+    ]
+  }
+]

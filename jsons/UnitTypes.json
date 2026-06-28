@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Civilian",
+    "movementType": "Land"
+  },
+  {
+    "name": "Melee",
+    "movementType": "Land"
+  },
+  {
+    "name": "Ranged",
+    "movementType": "Land"
+  },
+  {
+    "name": "Mounted",
+    "movementType": "Land"
+  },
+  {
+    "name": "Siege",
+    "movementType": "Land"
+  },
+  {
+    "name": "Armor",
+    "movementType": "Land"
+  },
+  {
+    "name": "WaterMelee",
+    "movementType": "Water"
+  },
+  {
+    "name": "WaterRanged",
+    "movementType": "Water"
+  },
+  {
+    "name": "WaterSubmarine",
+    "movementType": "Water"
+  },
+  {
+    "name": "Fighter",
+    "movementType": "Air"
+  },
+  {
+    "name": "Bomber",
+    "movementType": "Air"
+  },
+  {
+    "name": "WaterCivilian",
+    "movementType": "Water"
+  }
+]

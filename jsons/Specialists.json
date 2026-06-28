@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Scientist",
+    "science": 3,
+    "color": [
+      97,
+      156,
+      255
+    ],
+    "greatPersonPoints": {
+      "Great Scientist": 3
+    }
+  },
+  {
+    "name": "Merchant",
+    "gold": 3,
+    "color": [
+      255,
+      200,
+      60
+    ],
+    "greatPersonPoints": {
+      "Great Merchant": 3
+    }
+  },
+  {
+    "name": "Artist",
+    "culture": 3,
+    "color": [
+      221,
+      120,
+      255
+    ],
+    "greatPersonPoints": {
+      "Great Artist": 3
+    }
+  },
+  {
+    "name": "Engineer",
+    "production": 2,
+    "color": [
+      180,
+      120,
+      70
+    ],
+    "greatPersonPoints": {
+      "Great Engineer": 3
+    }
+  }
+]

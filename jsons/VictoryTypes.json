@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Domination",
+    "victoryScreenHeader": "Conquest",
+    "victoryString": "You have conquered all rival capitals!",
+    "defeatString": "Your capital has fallen.",
+    "milestones": [
+      "Capture all capitals"
+    ]
+  },
+  {
+    "name": "Scientific",
+    "victoryScreenHeader": "Space Race",
+    "victoryString": "Your spaceship reached Alpha Centauri!",
+    "defeatString": "Another civilization reached the stars first.",
+    "requiredSpaceshipParts": [
+      "Spaceship Fuel",
+      "Spaceship Propulsion",
+      "Spaceship Life Support",
+      "Spaceship Habitation"
+    ],
+    "milestones": [
+      "Build [Apollo Program]",
+      "Add all [spaceship parts] in capital"
+    ]
+  },
+  {
+    "name": "Economic",
+    "victoryScreenHeader": "Wealth",
+    "victoryString": "Your economy rules the world!",
+    "defeatString": "A rival economy cornered the world's wealth.",
+    "milestones": [
+      "Build [World Bank]"
+    ]
+  },
+  {
+    "name": "Cultural",
+    "victoryScreenHeader": "Culture",
+    "victoryString": "Your culture is the envy of the world!",
+    "defeatString": "Another culture outshone yours.",
+    "milestones": [
+      "Build [United Nations]"
+    ]
+  }
+]

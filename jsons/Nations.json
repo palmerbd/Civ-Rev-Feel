@@ -1,0 +1,532 @@
+[
+  {
+    "name": "America",
+    "leaderName": "Abraham Lincoln",
+    "innerColor": [
+      0,
+      38,
+      99
+    ],
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "uniqueName": "Manifest Destiny",
+    "uniques": [
+      "[+1 Food] from [Plains] tiles [in all cities] <after discovering [Gunpowder]>",
+      "[+33]% [Production] [in all cities] <after discovering [Mass Production]>"
+    ],
+    "cities": [
+      "Washington",
+      "New York",
+      "Boston",
+      "Philadelphia",
+      "Atlanta",
+      "Chicago",
+      "San Francisco",
+      "Los Angeles",
+      "Denver",
+      "Seattle"
+    ],
+    "preferredVictoryType": "Scientific"
+  },
+  {
+    "name": "Arabia",
+    "leaderName": "Saladin",
+    "innerColor": [
+      24,
+      123,
+      80
+    ],
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "uniqueName": "Caravans",
+    "uniques": [
+      "[+50]% [Gold] [in all cities]",
+      "[+25]% Strength <for [Mounted] units> <after discovering [Gunpowder]>"
+    ],
+    "cities": [
+      "Mecca",
+      "Medina",
+      "Damascus",
+      "Baghdad",
+      "Cairo",
+      "Cordoba",
+      "Basra",
+      "Najran"
+    ],
+    "preferredVictoryType": "Economic",
+    "startBias": [
+      "Desert"
+    ]
+  },
+  {
+    "name": "Aztecs",
+    "leaderName": "Montezuma",
+    "innerColor": [
+      101,
+      57,
+      166
+    ],
+    "outerColor": [
+      200,
+      220,
+      80
+    ],
+    "uniqueName": "Sacrificial Captives",
+    "uniques": [
+      "[+2 Gold] [in all cities]",
+      "[+50]% [Gold] [in all cities] <after discovering [Mass Production]>"
+    ],
+    "cities": [
+      "Tenochtitlan",
+      "Teotihuacan",
+      "Tlatelolco",
+      "Texcoco",
+      "Tlaxcala",
+      "Calixtlahuaca",
+      "Xochicalco",
+      "Tula"
+    ],
+    "preferredVictoryType": "Domination",
+    "startBias": [
+      "Jungle"
+    ]
+  },
+  {
+    "name": "China",
+    "leaderName": "Mao Zedong",
+    "innerColor": [
+      124,
+      18,
+      18
+    ],
+    "outerColor": [
+      255,
+      224,
+      102
+    ],
+    "uniqueName": "Celestial Empire",
+    "uniques": [
+      "[+25]% [Science] [in all cities]",
+      "[+1 Food] [in all cities] <after discovering [Currency]>"
+    ],
+    "cities": [
+      "Beijing",
+      "Shanghai",
+      "Xian",
+      "Nanjing",
+      "Luoyang",
+      "Chengdu",
+      "Guangzhou",
+      "Hangzhou"
+    ],
+    "preferredVictoryType": "Scientific"
+  },
+  {
+    "name": "Egypt",
+    "leaderName": "Cleopatra",
+    "innerColor": [
+      16,
+      107,
+      107
+    ],
+    "outerColor": [
+      255,
+      222,
+      77
+    ],
+    "uniqueName": "Monument Builders",
+    "uniques": [
+      "[+1 Food, +1 Gold] from [Desert] tiles [in all cities]",
+      "[+25]% Production when constructing [Wonder] buildings [in all cities]"
+    ],
+    "cities": [
+      "Thebes",
+      "Memphis",
+      "Heliopolis",
+      "Alexandria",
+      "Elephantine",
+      "Giza",
+      "Byblos"
+    ],
+    "preferredVictoryType": "Cultural",
+    "startBias": [
+      "Desert"
+    ]
+  },
+  {
+    "name": "England",
+    "leaderName": "Elizabeth I",
+    "innerColor": [
+      103,
+      7,
+      30
+    ],
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "uniqueName": "Rule Britannia",
+    "uniques": [
+      "[+1 Production] from [Hill] tiles [in all cities] <after discovering [Gunpowder]>",
+      "[+25]% Strength <for [Water] units>"
+    ],
+    "cities": [
+      "London",
+      "York",
+      "Canterbury",
+      "Coventry",
+      "Warwick",
+      "Newcastle",
+      "Oxford",
+      "Liverpool"
+    ],
+    "preferredVictoryType": "Economic",
+    "startBias": [
+      "Coast"
+    ]
+  },
+  {
+    "name": "France",
+    "leaderName": "Napoleon",
+    "innerColor": [
+      65,
+      141,
+      209
+    ],
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "uniqueName": "Grande Nation",
+    "uniques": [
+      "[+2 Culture] [in all cities]",
+      "[+25]% Strength <for [Cannon] units> <after discovering [Gunpowder]>"
+    ],
+    "cities": [
+      "Paris",
+      "Orleans",
+      "Lyon",
+      "Marseille",
+      "Tours",
+      "Reims",
+      "Rouen",
+      "Avignon"
+    ],
+    "preferredVictoryType": "Cultural"
+  },
+  {
+    "name": "Germany",
+    "leaderName": "Otto von Bismarck",
+    "innerColor": [
+      40,
+      40,
+      40
+    ],
+    "outerColor": [
+      200,
+      200,
+      200
+    ],
+    "uniqueName": "Blitzkrieg",
+    "uniques": [
+      "[+1 Production] from [Forest] tiles [in all cities]",
+      "[+25]% Production when constructing [Armor] units [in all cities] <after discovering [Combustion]>"
+    ],
+    "cities": [
+      "Berlin",
+      "Hamburg",
+      "Munich",
+      "Cologne",
+      "Frankfurt",
+      "Nuremberg",
+      "Dresden",
+      "Leipzig"
+    ],
+    "preferredVictoryType": "Domination"
+  },
+  {
+    "name": "Greece",
+    "leaderName": "Alexander the Great",
+    "innerColor": [
+      12,
+      71,
+      138
+    ],
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "uniqueName": "Hellenic League",
+    "uniques": [
+      "[+1 Food] from [Coast] tiles [in all cities]",
+      "[+25]% [Science] [in all cities] <after discovering [Currency]>"
+    ],
+    "cities": [
+      "Athens",
+      "Sparta",
+      "Corinth",
+      "Thebes (Greek)",
+      "Argos",
+      "Knossos",
+      "Mycenae",
+      "Rhodes"
+    ],
+    "preferredVictoryType": "Scientific",
+    "startBias": [
+      "Coast"
+    ]
+  },
+  {
+    "name": "India",
+    "leaderName": "Gandhi",
+    "innerColor": [
+      18,
+      135,
+      52
+    ],
+    "outerColor": [
+      255,
+      153,
+      51
+    ],
+    "uniqueName": "Population Boom",
+    "uniques": [
+      "[+1 Food] [in all cities]",
+      "[+2 Culture] [in all cities] <after discovering [Currency]>"
+    ],
+    "cities": [
+      "Delhi",
+      "Mumbai",
+      "Pataliputra",
+      "Varanasi",
+      "Agra",
+      "Calcutta",
+      "Madras",
+      "Bangalore"
+    ],
+    "preferredVictoryType": "Cultural"
+  },
+  {
+    "name": "Japan",
+    "leaderName": "Tokugawa",
+    "innerColor": [
+      167,
+      17,
+      17
+    ],
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "uniqueName": "Bushido",
+    "uniques": [
+      "[+1 Food] from [Coast] tiles [in all cities]",
+      "[+25]% Strength <for [Samurai Knight] units>"
+    ],
+    "cities": [
+      "Kyoto",
+      "Osaka",
+      "Tokyo",
+      "Nagoya",
+      "Nara",
+      "Kamakura",
+      "Sapporo",
+      "Hiroshima"
+    ],
+    "preferredVictoryType": "Domination",
+    "startBias": [
+      "Coast"
+    ]
+  },
+  {
+    "name": "Mongolia",
+    "leaderName": "Genghis Khan",
+    "innerColor": [
+      81,
+      52,
+      21
+    ],
+    "outerColor": [
+      230,
+      200,
+      120
+    ],
+    "uniqueName": "Mongol Horde",
+    "uniques": [
+      "[+1] Movement <for [Mounted] units> <after discovering [Currency]>",
+      "[+25]% Production when constructing [Mounted] units [in all cities]"
+    ],
+    "cities": [
+      "Karakorum",
+      "Beshbalik",
+      "Turfan",
+      "Sarai",
+      "Ning-hsia",
+      "Tabriz",
+      "Kashgar"
+    ],
+    "preferredVictoryType": "Domination",
+    "startBias": [
+      "Plains"
+    ]
+  },
+  {
+    "name": "Rome",
+    "leaderName": "Julius Caesar",
+    "innerColor": [
+      120,
+      29,
+      128
+    ],
+    "outerColor": [
+      255,
+      222,
+      77
+    ],
+    "uniqueName": "The Glory of Rome",
+    "uniques": [
+      "[+25]% Production when constructing [Wonder] buildings [in all cities]",
+      "[+25]% Production when constructing [Buildings] buildings [in all cities] <after discovering [Currency]>"
+    ],
+    "cities": [
+      "Rome",
+      "Ostia",
+      "Antium",
+      "Capua",
+      "Ravenna",
+      "Pompeii",
+      "Neapolis",
+      "Brundisium"
+    ],
+    "preferredVictoryType": "Domination"
+  },
+  {
+    "name": "Russia",
+    "leaderName": "Catherine the Great",
+    "innerColor": [
+      148,
+      28,
+      28
+    ],
+    "outerColor": [
+      255,
+      213,
+      0
+    ],
+    "uniqueName": "Mother Russia",
+    "uniques": [
+      "[+1 Food] from [Plains] tiles [in all cities]",
+      "[+25]% Production when constructing [Military] units [in all cities] <after discovering [Gunpowder]>"
+    ],
+    "cities": [
+      "Moscow",
+      "St. Petersburg",
+      "Novgorod",
+      "Kiev",
+      "Rostov",
+      "Yekaterinburg",
+      "Smolensk"
+    ],
+    "preferredVictoryType": "Domination",
+    "startBias": [
+      "Tundra"
+    ]
+  },
+  {
+    "name": "Spain",
+    "leaderName": "Isabella",
+    "innerColor": [
+      170,
+      30,
+      30
+    ],
+    "outerColor": [
+      255,
+      200,
+      0
+    ],
+    "uniqueName": "Conquistadors",
+    "uniques": [
+      "[+50]% [Gold] [in all cities] <after discovering [Gunpowder]>",
+      "[+1 Production] from [Hill] tiles [in all cities] <after discovering [Mass Production]>"
+    ],
+    "cities": [
+      "Madrid",
+      "Barcelona",
+      "Seville",
+      "Toledo",
+      "Cordoba (Spain)",
+      "Granada",
+      "Valencia"
+    ],
+    "preferredVictoryType": "Economic"
+  },
+  {
+    "name": "Zulu",
+    "leaderName": "Shaka",
+    "innerColor": [
+      60,
+      40,
+      20
+    ],
+    "outerColor": [
+      240,
+      180,
+      60
+    ],
+    "uniqueName": "Iklwa",
+    "uniques": [
+      "[+1] Movement <for [Impi Warrior] units>",
+      "[+1 Food] [in all cities] <after discovering [Currency]>"
+    ],
+    "cities": [
+      "Ulundi",
+      "Umgungundlovu",
+      "Nobamba",
+      "Bulawayo",
+      "Eshowe",
+      "Nodwengu"
+    ],
+    "preferredVictoryType": "Domination"
+  },
+  {
+    "name": "Barbarians",
+    "innerColor": [
+      150,
+      30,
+      30
+    ],
+    "outerColor": [
+      30,
+      30,
+      30
+    ]
+  },
+  {
+    "name": "Spectator",
+    "leaderName": "Spectator",
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "uniques": [
+      "Will not be displayed in Civilopedia"
+    ]
+  }
+]

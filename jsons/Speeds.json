@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Standard",
+    "modifier": 0.5,
+    "goldCostModifier": 0.5,
+    "productionCostModifier": 0.5,
+    "scienceCostModifier": 0.5,
+    "cultureCostModifier": 0.5,
+    "faithCostModifier": 0.5,
+    "improvementBuildLengthModifier": 0.5,
+    "barbarianModifier": 0.6,
+    "goldGiftModifier": 0.5,
+    "goldenAgeLengthModifier": 0.6,
+    "startYear": -4000,
+    "turns": [
+      {
+        "yearsPerTurn": 50,
+        "untilTurn": 60
+      },
+      {
+        "yearsPerTurn": 25,
+        "untilTurn": 120
+      },
+      {
+        "yearsPerTurn": 10,
+        "untilTurn": 190
+      },
+      {
+        "yearsPerTurn": 5,
+        "untilTurn": 250
+      }
+    ]
+  }
+]

@@ -1,0 +1,358 @@
+[
+  {
+    "name": "Palace",
+    "science": 1,
+    "culture": 1,
+    "gold": 1,
+    "production": 1,
+    "happiness": 1,
+    "cityStrength": 5,
+    "isNationalWonder": true,
+    "uniques": [
+      "Indicates the capital city"
+    ]
+  },
+  {
+    "name": "Granary",
+    "food": 2,
+    "cost": 40,
+    "requiredTech": "Pottery"
+  },
+  {
+    "name": "Library",
+    "science": 1,
+    "cost": 50,
+    "requiredTech": "Alphabet",
+    "percentStatBonus": {
+      "science": 50
+    },
+    "specialistSlots": {
+      "Scientist": 1
+    }
+  },
+  {
+    "name": "Barracks",
+    "cost": 50,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+      "New [Military] units start with [15] Experience [in this city]"
+    ]
+  },
+  {
+    "name": "Temple",
+    "culture": 3,
+    "happiness": 2,
+    "cost": 50,
+    "requiredTech": "Ceremonial Burial",
+    "specialistSlots": {
+      "Artist": 1
+    }
+  },
+  {
+    "name": "Walls",
+    "cityStrength": 8,
+    "cityHealth": 25,
+    "cost": 50,
+    "requiredTech": "Masonry"
+  },
+  {
+    "name": "Trading Post",
+    "gold": 2,
+    "cost": 50,
+    "requiredTech": "Code of Laws"
+  },
+  {
+    "name": "Market",
+    "cost": 60,
+    "requiredTech": "Currency",
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "specialistSlots": {
+      "Merchant": 1
+    }
+  },
+  {
+    "name": "Courthouse",
+    "cost": 60,
+    "requiredTech": "Literacy",
+    "uniques": [
+      "Remove extra unhappiness from annexed cities"
+    ]
+  },
+  {
+    "name": "Workshop",
+    "production": 2,
+    "cost": 70,
+    "requiredTech": "Construction",
+    "percentStatBonus": {
+      "production": 20
+    },
+    "specialistSlots": {
+      "Engineer": 1
+    }
+  },
+  {
+    "name": "Aqueduct",
+    "food": 2,
+    "cost": 70,
+    "requiredTech": "Engineering"
+  },
+  {
+    "name": "Harbour",
+    "cost": 70,
+    "requiredTech": "Navigation",
+    "uniques": [
+      "[+1 Food] from [Coast] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "University",
+    "science": 2,
+    "cost": 90,
+    "requiredTech": "University",
+    "requiredBuilding": "Library",
+    "percentStatBonus": {
+      "science": 50
+    },
+    "specialistSlots": {
+      "Scientist": 1
+    }
+  },
+  {
+    "name": "Bank",
+    "gold": 2,
+    "cost": 100,
+    "requiredTech": "Banking",
+    "requiredBuilding": "Market",
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "specialistSlots": {
+      "Merchant": 1
+    }
+  },
+  {
+    "name": "Cathedral",
+    "culture": 4,
+    "happiness": 3,
+    "cost": 110,
+    "requiredTech": "Religion",
+    "requiredBuilding": "Temple"
+  },
+  {
+    "name": "Factory",
+    "cost": 140,
+    "requiredTech": "Industrialization",
+    "percentStatBonus": {
+      "production": 50
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    }
+  },
+  {
+    "name": "SDI Defense",
+    "cityStrength": 12,
+    "cityHealth": 50,
+    "cost": 160,
+    "requiredTech": "Superconductor"
+  },
+  {
+    "name": "Colossus of Rhodes",
+    "isWonder": true,
+    "cost": 100,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+      "[+50]% [Gold] [in this city]",
+      "[+50]% [Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Great Library of Alexandria",
+    "isWonder": true,
+    "cost": 150,
+    "requiredTech": "Writing",
+    "uniques": [
+      "[+4 Science] [in all cities]"
+    ]
+  },
+  {
+    "name": "Great Pyramid",
+    "isWonder": true,
+    "cost": 150,
+    "requiredTech": "Ceremonial Burial",
+    "uniques": [
+      "[+25]% Production when constructing [Buildings] buildings [in all cities]"
+    ]
+  },
+  {
+    "name": "Great Wall",
+    "isWonder": true,
+    "cost": 150,
+    "requiredTech": "Masonry",
+    "uniques": [
+      "Enemy [Land] units must spend [1] extra movement points when inside your territory"
+    ]
+  },
+  {
+    "name": "Hanging Gardens of Babylon",
+    "isWonder": true,
+    "cost": 100,
+    "requiredTech": "Pottery",
+    "uniques": [
+      "[+1 Food] [in all cities]",
+      "[+3 Happiness]"
+    ]
+  },
+  {
+    "name": "Oracle of Delphi",
+    "isWonder": true,
+    "cost": 125,
+    "requiredTech": "Alphabet",
+    "uniques": [
+      "[+2 Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "Stonehenge",
+    "isWonder": true,
+    "cost": 50,
+    "requiredTech": "Literacy",
+    "uniques": [
+      "[+3 Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "East India Company",
+    "isWonder": true,
+    "cost": 200,
+    "requiredTech": "Navigation",
+    "uniques": [
+      "[+1 Gold] from [Coast] tiles [in all cities]"
+    ]
+  },
+  {
+    "name": "Himeji Samurai Castle",
+    "isWonder": true,
+    "cost": 150,
+    "requiredTech": "Monarchy",
+    "uniques": [
+      "[+15]% Strength <for [Military] units> <when attacking>"
+    ]
+  },
+  {
+    "name": "Leonardo's Workshop",
+    "isWonder": true,
+    "cost": 200,
+    "requiredTech": "Invention",
+    "uniques": [
+      "[+25]% Production when constructing [Military] units [in all cities]"
+    ]
+  },
+  {
+    "name": "Magna Carta",
+    "isWonder": true,
+    "cost": 150,
+    "requiredTech": "Democracy",
+    "uniques": [
+      "[+3 Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "Oxford University",
+    "isWonder": true,
+    "cost": 150,
+    "requiredTech": "University",
+    "uniques": [
+      "[+4 Science] [in all cities]"
+    ]
+  },
+  {
+    "name": "Shakespeare's Theatre",
+    "isWonder": true,
+    "cost": 150,
+    "requiredTech": "Literacy",
+    "uniques": [
+      "[+100]% [Culture] [in this city]"
+    ]
+  },
+  {
+    "name": "Trade Fair of Troyes",
+    "isWonder": true,
+    "cost": 250,
+    "requiredTech": "Currency",
+    "uniques": [
+      "[+100]% [Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Hollywood",
+    "isWonder": true,
+    "cost": 600,
+    "requiredTech": "Mass Media",
+    "uniques": [
+      "[+5 Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "The Internet",
+    "isWonder": true,
+    "cost": 750,
+    "requiredTech": "Networking",
+    "uniques": [
+      "[+5 Gold] [in all cities]",
+      "[+3 Science] [in all cities]"
+    ]
+  },
+  {
+    "name": "Manhattan Project",
+    "isWonder": true,
+    "cost": 750,
+    "requiredTech": "Atomic Theory",
+    "uniques": [
+      "[+3 Production] [in all cities]"
+    ]
+  },
+  {
+    "name": "Military-Industrial Complex",
+    "isWonder": true,
+    "cost": 500,
+    "requiredTech": "The Corporation",
+    "uniques": [
+      "[+25]% Production when constructing [Military] units [in all cities]"
+    ]
+  },
+  {
+    "name": "Apollo Program",
+    "isWonder": true,
+    "cost": 750,
+    "requiredTech": "Space Flight",
+    "uniques": [
+      "Enables construction of Spaceship parts"
+    ],
+    "quote": "\"We choose to go to the Moon.\""
+  },
+  {
+    "name": "World Bank",
+    "isWonder": true,
+    "cost": 500,
+    "requiredTech": "The Corporation",
+    "uniques": [
+      "[+5 Gold] [in all cities]"
+    ],
+    "requiredBuilding": "Bank",
+    "quote": "\"Wealth is the engine of empire.\""
+  },
+  {
+    "name": "United Nations",
+    "isWonder": true,
+    "cost": 500,
+    "requiredTech": "Globalization",
+    "uniques": [
+      "[+5 Culture] [in all cities]"
+    ],
+    "requiredBuilding": "Cathedral",
+    "quote": "\"We the peoples...\""
+  }
+]

@@ -1,0 +1,720 @@
+[
+  {
+    "name": "Settler",
+    "unitType": "Civilian",
+    "cost": 60,
+    "movement": 2,
+    "uniques": [
+      "Founds a new city"
+    ]
+  },
+  {
+    "name": "Worker",
+    "unitType": "Civilian",
+    "cost": 35,
+    "movement": 2,
+    "uniques": [
+      "Can build [Land] improvements on tiles"
+    ]
+  },
+  {
+    "name": "Work Boat",
+    "unitType": "WaterCivilian",
+    "cost": 35,
+    "movement": 3,
+    "requiredTech": "Navigation",
+    "uniques": [
+      "Can build [Water] improvements on tiles"
+    ]
+  },
+  {
+    "name": "Warrior",
+    "unitType": "Melee",
+    "cost": 16,
+    "movement": 2,
+    "strength": 8,
+    "upgradesTo": "Legion"
+  },
+  {
+    "name": "Archer",
+    "unitType": "Ranged",
+    "cost": 24,
+    "movement": 2,
+    "strength": 6,
+    "rangedStrength": 9,
+    "range": 2,
+    "requiredTech": "Bronze Working",
+    "upgradesTo": "Rifleman"
+  },
+  {
+    "name": "Legion",
+    "unitType": "Melee",
+    "cost": 40,
+    "movement": 2,
+    "strength": 14,
+    "requiredTech": "Iron Working",
+    "requiredResource": "Iron",
+    "upgradesTo": "Rifleman"
+  },
+  {
+    "name": "Catapult",
+    "unitType": "Siege",
+    "cost": 40,
+    "movement": 2,
+    "strength": 7,
+    "rangedStrength": 14,
+    "range": 2,
+    "requiredTech": "Mathematics",
+    "upgradesTo": "Cannon",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ]
+  },
+  {
+    "name": "Horsemen",
+    "unitType": "Mounted",
+    "cost": 30,
+    "movement": 4,
+    "strength": 12,
+    "requiredTech": "Horseback Riding",
+    "requiredResource": "Horses",
+    "upgradesTo": "Knight",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ]
+  },
+  {
+    "name": "Pikemen",
+    "unitType": "Melee",
+    "cost": 36,
+    "movement": 2,
+    "strength": 16,
+    "requiredTech": "Democracy",
+    "upgradesTo": "Rifleman",
+    "uniques": [
+      "[+100]% Strength <vs [Mounted] units>"
+    ]
+  },
+  {
+    "name": "Knight",
+    "unitType": "Mounted",
+    "cost": 70,
+    "movement": 4,
+    "strength": 22,
+    "requiredTech": "Feudalism",
+    "requiredResource": "Horses",
+    "upgradesTo": "Tank",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ]
+  },
+  {
+    "name": "Rifleman",
+    "unitType": "Melee",
+    "cost": 100,
+    "movement": 2,
+    "strength": 30,
+    "requiredTech": "Gunpowder",
+    "upgradesTo": "Modern Infantry"
+  },
+  {
+    "name": "Cannon",
+    "unitType": "Siege",
+    "cost": 110,
+    "movement": 2,
+    "strength": 16,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Metallurgy",
+    "upgradesTo": "Artillery",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ]
+  },
+  {
+    "name": "Tank",
+    "unitType": "Armor",
+    "cost": 150,
+    "movement": 4,
+    "strength": 50,
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ]
+  },
+  {
+    "name": "Artillery",
+    "unitType": "Siege",
+    "cost": 140,
+    "movement": 2,
+    "strength": 24,
+    "rangedStrength": 52,
+    "range": 3,
+    "requiredTech": "The Automobile",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ]
+  },
+  {
+    "name": "Modern Infantry",
+    "unitType": "Melee",
+    "cost": 170,
+    "movement": 2,
+    "strength": 60,
+    "requiredTech": "Mass Production"
+  },
+  {
+    "name": "Fighter",
+    "unitType": "Fighter",
+    "cost": 120,
+    "movement": 6,
+    "strength": 0,
+    "rangedStrength": 30,
+    "range": 6,
+    "interceptRange": 6,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Can attack [Air] units",
+      "[50]% chance to intercept air attacks"
+    ]
+  },
+  {
+    "name": "Bomber",
+    "unitType": "Bomber",
+    "cost": 140,
+    "movement": 4,
+    "strength": 0,
+    "rangedStrength": 45,
+    "range": 8,
+    "requiredTech": "Advanced Flight",
+    "uniques": [
+      "Can only attack [Land] tiles"
+    ]
+  },
+  {
+    "name": "Galley",
+    "unitType": "WaterMelee",
+    "cost": 30,
+    "movement": 4,
+    "strength": 10,
+    "requiredTech": "Bronze Working",
+    "upgradesTo": "Galleon",
+    "uniques": [
+      "Can carry [2] [Land] units"
+    ]
+  },
+  {
+    "name": "Galleon",
+    "unitType": "WaterMelee",
+    "cost": 80,
+    "movement": 5,
+    "strength": 22,
+    "requiredTech": "Navigation",
+    "upgradesTo": "Cruiser",
+    "uniques": [
+      "Can carry [3] [Land] units"
+    ]
+  },
+  {
+    "name": "Cruiser",
+    "unitType": "WaterRanged",
+    "cost": 120,
+    "movement": 6,
+    "strength": 28,
+    "rangedStrength": 30,
+    "range": 2,
+    "requiredTech": "Steam Power",
+    "upgradesTo": "Battleship"
+  },
+  {
+    "name": "Submarine",
+    "unitType": "WaterSubmarine",
+    "cost": 110,
+    "movement": 5,
+    "strength": 30,
+    "requiredTech": "Electricity",
+    "uniques": [
+      "Can only attack [Water] units",
+      "Invisible to non-adjacent units",
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Battleship",
+    "unitType": "WaterRanged",
+    "cost": 170,
+    "movement": 5,
+    "strength": 40,
+    "rangedStrength": 45,
+    "range": 3,
+    "requiredTech": "Steel"
+  },
+  {
+    "name": "Spaceship Fuel",
+    "unitType": "Civilian",
+    "cost": 250,
+    "movement": 2,
+    "requiredTech": "Space Flight",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "Spaceship part"
+    ]
+  },
+  {
+    "name": "Spaceship Propulsion",
+    "unitType": "Civilian",
+    "cost": 250,
+    "movement": 2,
+    "requiredTech": "Space Flight",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "Spaceship part"
+    ]
+  },
+  {
+    "name": "Spaceship Life Support",
+    "unitType": "Civilian",
+    "cost": 250,
+    "movement": 2,
+    "requiredTech": "Space Flight",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "Spaceship part"
+    ]
+  },
+  {
+    "name": "Spaceship Habitation",
+    "unitType": "Civilian",
+    "cost": 250,
+    "movement": 2,
+    "requiredTech": "Space Flight",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "Spaceship part"
+    ]
+  },
+  {
+    "name": "Great Scientist",
+    "unitType": "Civilian",
+    "cost": 1000,
+    "movement": 2,
+    "uniques": [
+      "Great Person - [Science]",
+      "Can construct [Academy]"
+    ]
+  },
+  {
+    "name": "Great Merchant",
+    "unitType": "Civilian",
+    "cost": 1000,
+    "movement": 2,
+    "uniques": [
+      "Great Person - [Gold]",
+      "Can construct [Customs house]"
+    ]
+  },
+  {
+    "name": "Great Artist",
+    "unitType": "Civilian",
+    "cost": 1000,
+    "movement": 2,
+    "uniques": [
+      "Great Person - [Culture]",
+      "Can construct [Landmark]"
+    ]
+  },
+  {
+    "name": "Great Engineer",
+    "unitType": "Civilian",
+    "cost": 1000,
+    "movement": 2,
+    "uniques": [
+      "Great Person - [Production]",
+      "Can construct [Manufactory]"
+    ]
+  },
+  {
+    "name": "Sherman Tank",
+    "unitType": "Armor",
+    "cost": 150,
+    "movement": 4,
+    "strength": 50,
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ],
+    "uniqueTo": "America",
+    "replaces": "Tank"
+  },
+  {
+    "name": "Mustang Fighter",
+    "unitType": "Fighter",
+    "cost": 120,
+    "movement": 6,
+    "strength": 0,
+    "rangedStrength": 30,
+    "range": 6,
+    "interceptRange": 6,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Can attack [Air] units",
+      "[50]% chance to intercept air attacks"
+    ],
+    "uniqueTo": "America",
+    "replaces": "Fighter"
+  },
+  {
+    "name": "Flying Fortress",
+    "unitType": "Bomber",
+    "cost": 140,
+    "movement": 4,
+    "strength": 0,
+    "rangedStrength": 45,
+    "range": 8,
+    "requiredTech": "Advanced Flight",
+    "uniques": [
+      "Can only attack [Land] tiles"
+    ],
+    "uniqueTo": "America",
+    "replaces": "Bomber"
+  },
+  {
+    "name": "Jaguar Warrior",
+    "unitType": "Melee",
+    "cost": 16,
+    "movement": 2,
+    "strength": 8,
+    "upgradesTo": "Legion",
+    "uniqueTo": "Aztecs",
+    "replaces": "Warrior"
+  },
+  {
+    "name": "Longbow Archer",
+    "unitType": "Ranged",
+    "cost": 24,
+    "movement": 2,
+    "strength": 6,
+    "rangedStrength": 9,
+    "range": 2,
+    "requiredTech": "Bronze Working",
+    "upgradesTo": "Rifleman",
+    "uniqueTo": "England",
+    "replaces": "Archer"
+  },
+  {
+    "name": "Lancaster Bomber",
+    "unitType": "Bomber",
+    "cost": 140,
+    "movement": 4,
+    "strength": 0,
+    "rangedStrength": 45,
+    "range": 8,
+    "requiredTech": "Advanced Flight",
+    "uniques": [
+      "Can only attack [Land] tiles"
+    ],
+    "uniqueTo": "England",
+    "replaces": "Bomber"
+  },
+  {
+    "name": "Spitfire Fighter",
+    "unitType": "Fighter",
+    "cost": 120,
+    "movement": 6,
+    "strength": 0,
+    "rangedStrength": 30,
+    "range": 6,
+    "interceptRange": 6,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Can attack [Air] units",
+      "[50]% chance to intercept air attacks"
+    ],
+    "uniqueTo": "England",
+    "replaces": "Fighter"
+  },
+  {
+    "name": "Trebuchet",
+    "unitType": "Siege",
+    "cost": 40,
+    "movement": 2,
+    "strength": 7,
+    "rangedStrength": 14,
+    "range": 2,
+    "requiredTech": "Mathematics",
+    "upgradesTo": "Cannon",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "uniqueTo": "France",
+    "replaces": "Catapult"
+  },
+  {
+    "name": "Howitzer",
+    "unitType": "Siege",
+    "cost": 140,
+    "movement": 2,
+    "strength": 24,
+    "rangedStrength": 52,
+    "range": 3,
+    "requiredTech": "The Automobile",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "uniqueTo": "France",
+    "replaces": "Artillery"
+  },
+  {
+    "name": "Panzer Tank",
+    "unitType": "Armor",
+    "cost": 150,
+    "movement": 4,
+    "strength": 50,
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ],
+    "uniqueTo": "Germany",
+    "replaces": "Tank"
+  },
+  {
+    "name": "88mm Gun",
+    "unitType": "Siege",
+    "cost": 140,
+    "movement": 2,
+    "strength": 24,
+    "rangedStrength": 52,
+    "range": 3,
+    "requiredTech": "The Automobile",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "uniqueTo": "Germany",
+    "replaces": "Artillery"
+  },
+  {
+    "name": "Heinkel Bomber",
+    "unitType": "Bomber",
+    "cost": 140,
+    "movement": 4,
+    "strength": 0,
+    "rangedStrength": 45,
+    "range": 8,
+    "requiredTech": "Advanced Flight",
+    "uniques": [
+      "Can only attack [Land] tiles"
+    ],
+    "uniqueTo": "Germany",
+    "replaces": "Bomber"
+  },
+  {
+    "name": "ME109 Fighter",
+    "unitType": "Fighter",
+    "cost": 120,
+    "movement": 6,
+    "strength": 0,
+    "rangedStrength": 30,
+    "range": 6,
+    "interceptRange": 6,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Can attack [Air] units",
+      "[50]% chance to intercept air attacks"
+    ],
+    "uniqueTo": "Germany",
+    "replaces": "Fighter"
+  },
+  {
+    "name": "Trireme",
+    "unitType": "WaterMelee",
+    "cost": 30,
+    "movement": 4,
+    "strength": 10,
+    "requiredTech": "Bronze Working",
+    "upgradesTo": "Galleon",
+    "uniques": [
+      "Can carry [2] [Land] units"
+    ],
+    "uniqueTo": "Greece",
+    "replaces": "Galley"
+  },
+  {
+    "name": "Hoplite",
+    "unitType": "Melee",
+    "cost": 36,
+    "movement": 2,
+    "strength": 16,
+    "requiredTech": "Democracy",
+    "upgradesTo": "Rifleman",
+    "uniques": [
+      "[+100]% Strength <vs [Mounted] units>"
+    ],
+    "uniqueTo": "Greece",
+    "replaces": "Pikemen"
+  },
+  {
+    "name": "Samurai Knight",
+    "unitType": "Mounted",
+    "cost": 70,
+    "movement": 4,
+    "strength": 22,
+    "requiredTech": "Feudalism",
+    "requiredResource": "Horses",
+    "upgradesTo": "Tank",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ],
+    "uniqueTo": "Japan",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Ashigaru Pikemen",
+    "unitType": "Melee",
+    "cost": 36,
+    "movement": 2,
+    "strength": 16,
+    "requiredTech": "Democracy",
+    "upgradesTo": "Rifleman",
+    "uniques": [
+      "[+100]% Strength <vs [Mounted] units>"
+    ],
+    "uniqueTo": "Japan",
+    "replaces": "Pikemen"
+  },
+  {
+    "name": "Val Bomber",
+    "unitType": "Bomber",
+    "cost": 140,
+    "movement": 4,
+    "strength": 0,
+    "rangedStrength": 45,
+    "range": 8,
+    "requiredTech": "Advanced Flight",
+    "uniques": [
+      "Can only attack [Land] tiles"
+    ],
+    "uniqueTo": "Japan",
+    "replaces": "Bomber"
+  },
+  {
+    "name": "Zero Fighter",
+    "unitType": "Fighter",
+    "cost": 120,
+    "movement": 6,
+    "strength": 0,
+    "rangedStrength": 30,
+    "range": 6,
+    "interceptRange": 6,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Can attack [Air] units",
+      "[50]% chance to intercept air attacks"
+    ],
+    "uniqueTo": "Japan",
+    "replaces": "Fighter"
+  },
+  {
+    "name": "Keshik",
+    "unitType": "Mounted",
+    "cost": 30,
+    "movement": 4,
+    "strength": 12,
+    "requiredTech": "Horseback Riding",
+    "requiredResource": "Horses",
+    "upgradesTo": "Knight",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ],
+    "uniqueTo": "Mongolia",
+    "replaces": "Horsemen"
+  },
+  {
+    "name": "Cataphract",
+    "unitType": "Mounted",
+    "cost": 70,
+    "movement": 4,
+    "strength": 22,
+    "requiredTech": "Feudalism",
+    "requiredResource": "Horses",
+    "upgradesTo": "Tank",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ],
+    "uniqueTo": "Rome",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Cossack",
+    "unitType": "Mounted",
+    "cost": 30,
+    "movement": 4,
+    "strength": 12,
+    "requiredTech": "Horseback Riding",
+    "requiredResource": "Horses",
+    "upgradesTo": "Knight",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ],
+    "uniqueTo": "Russia",
+    "replaces": "Horsemen"
+  },
+  {
+    "name": "T34 Tank",
+    "unitType": "Armor",
+    "cost": 150,
+    "movement": 4,
+    "strength": 50,
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ],
+    "uniqueTo": "Russia",
+    "replaces": "Tank"
+  },
+  {
+    "name": "Conquistador",
+    "unitType": "Mounted",
+    "cost": 70,
+    "movement": 4,
+    "strength": 22,
+    "requiredTech": "Feudalism",
+    "requiredResource": "Horses",
+    "upgradesTo": "Tank",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ],
+    "uniqueTo": "Spain",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Impi Warrior",
+    "unitType": "Melee",
+    "cost": 16,
+    "movement": 2,
+    "strength": 8,
+    "upgradesTo": "Legion",
+    "uniqueTo": "Zulu",
+    "replaces": "Warrior"
+  }
+]

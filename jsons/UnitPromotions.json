@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Shock I",
+    "unitTypes": [
+      "Melee",
+      "Mounted",
+      "Armor"
+    ],
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Shock II",
+    "unitTypes": [
+      "Melee",
+      "Mounted",
+      "Armor"
+    ],
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ],
+    "prerequisites": [
+      "Shock I"
+    ]
+  },
+  {
+    "name": "Shock III",
+    "unitTypes": [
+      "Melee",
+      "Mounted",
+      "Armor"
+    ],
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ],
+    "prerequisites": [
+      "Shock II"
+    ]
+  },
+  {
+    "name": "Drill I",
+    "unitTypes": [
+      "Melee",
+      "Mounted",
+      "Armor"
+    ],
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Drill II",
+    "unitTypes": [
+      "Melee",
+      "Mounted",
+      "Armor"
+    ],
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ],
+    "prerequisites": [
+      "Drill I"
+    ]
+  },
+  {
+    "name": "Drill III",
+    "unitTypes": [
+      "Melee",
+      "Mounted",
+      "Armor"
+    ],
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ],
+    "prerequisites": [
+      "Drill II"
+    ]
+  },
+  {
+    "name": "Accuracy I",
+    "unitTypes": [
+      "Ranged",
+      "Siege",
+      "WaterRanged"
+    ],
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Accuracy II",
+    "unitTypes": [
+      "Ranged",
+      "Siege",
+      "WaterRanged"
+    ],
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ],
+    "prerequisites": [
+      "Accuracy I"
+    ]
+  },
+  {
+    "name": "Accuracy III",
+    "unitTypes": [
+      "Ranged",
+      "Siege",
+      "WaterRanged"
+    ],
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ],
+    "prerequisites": [
+      "Accuracy II"
+    ]
+  },
+  {
+    "name": "Barrage I",
+    "unitTypes": [
+      "Ranged",
+      "Siege",
+      "WaterRanged"
+    ],
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Barrage II",
+    "unitTypes": [
+      "Ranged",
+      "Siege",
+      "WaterRanged"
+    ],
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ],
+    "prerequisites": [
+      "Barrage I"
+    ]
+  },
+  {
+    "name": "Barrage III",
+    "unitTypes": [
+      "Ranged",
+      "Siege",
+      "WaterRanged"
+    ],
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ],
+    "prerequisites": [
+      "Barrage II"
+    ]
+  }
+]

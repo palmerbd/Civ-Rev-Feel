@@ -1,0 +1,201 @@
+[
+  {
+    "name": "Despotism",
+    "era": "Ancient era",
+    "uniques": [
+      "[+1 Production] [in capital]"
+    ],
+    "policies": [
+      {
+        "name": "Levy",
+        "row": 1,
+        "column": 1,
+        "requires": [],
+        "uniques": [
+          "[+25]% Production when constructing [Military] units [in all cities]"
+        ]
+      },
+      {
+        "name": "Tithe",
+        "row": 1,
+        "column": 3,
+        "requires": [],
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Despotism Complete",
+        "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monarchy",
+    "era": "Medieval era",
+    "uniques": [
+      "[+2 Happiness]"
+    ],
+    "policies": [
+      {
+        "name": "Royal Court",
+        "row": 1,
+        "column": 1,
+        "requires": [],
+        "uniques": [
+          "[+2 Gold] [in capital]"
+        ]
+      },
+      {
+        "name": "Divine Right",
+        "row": 1,
+        "column": 3,
+        "requires": [],
+        "uniques": [
+          "[+1 Culture] [in all cities]"
+        ]
+      },
+      {
+        "name": "Monarchy Complete",
+        "uniques": [
+          "[+2 Happiness]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Republic",
+    "era": "Medieval era",
+    "uniques": [
+      "[+1 Gold] [in all cities]",
+      "[+1 Science] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Senate",
+        "row": 1,
+        "column": 1,
+        "requires": [],
+        "uniques": [
+          "[+1 Culture] [in all cities]"
+        ]
+      },
+      {
+        "name": "Free Trade",
+        "row": 1,
+        "column": 3,
+        "requires": [],
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Republic Complete",
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Democracy",
+    "era": "Medieval era",
+    "uniques": [
+      "[+50]% [Science] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Suffrage",
+        "row": 1,
+        "column": 1,
+        "requires": [],
+        "uniques": [
+          "[+2 Happiness]"
+        ]
+      },
+      {
+        "name": "Free Market",
+        "row": 1,
+        "column": 3,
+        "requires": [],
+        "uniques": [
+          "[+2 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Democracy Complete",
+        "uniques": [
+          "[+25]% [Gold] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Communism",
+    "era": "Industrial era",
+    "uniques": [
+      "[+25]% [Production] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Five-Year Plan",
+        "row": 1,
+        "column": 1,
+        "requires": [],
+        "uniques": [
+          "[+2 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Collectivization",
+        "row": 1,
+        "column": 3,
+        "requires": [],
+        "uniques": [
+          "[+1 Food] [in all cities]"
+        ]
+      },
+      {
+        "name": "Communism Complete",
+        "uniques": [
+          "[+25]% Production when constructing [Buildings] buildings [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fundamentalism",
+    "era": "Medieval era",
+    "uniques": [
+      "[+3 Culture] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Zealotry",
+        "row": 1,
+        "column": 1,
+        "requires": [],
+        "uniques": [
+          "[+2 Happiness]"
+        ]
+      },
+      {
+        "name": "Crusade",
+        "row": 1,
+        "column": 3,
+        "requires": [],
+        "uniques": [
+          "[+15]% Production when constructing [Military] units [in all cities]"
+        ]
+      },
+      {
+        "name": "Fundamentalism Complete",
+        "uniques": [
+          "[+2 Culture] [in all cities]"
+        ]
+      }
+    ]
+  }
+]

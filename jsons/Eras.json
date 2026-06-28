@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Ancient era",
+    "researchAgreementCost": 150,
+    "iconRGB": [
+      255,
+      222,
+      138
+    ],
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnitCount": 1,
+    "startingMilitaryUnit": "Warrior",
+    "startingWorkerUnit": "Worker",
+    "startingSettlerUnit": "Settler",
+    "settlerPopulation": 1,
+    "startPercent": 0,
+    "baseUnitBuyCost": 200
+  },
+  {
+    "name": "Medieval era",
+    "researchAgreementCost": 250,
+    "iconRGB": [
+      197,
+      168,
+      255
+    ],
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnitCount": 2,
+    "startingMilitaryUnit": "Legion",
+    "startingWorkerUnit": "Worker",
+    "startingSettlerUnit": "Settler",
+    "settlerPopulation": 2,
+    "startPercent": 30,
+    "baseUnitBuyCost": 320
+  },
+  {
+    "name": "Industrial era",
+    "researchAgreementCost": 400,
+    "iconRGB": [
+      120,
+      199,
+      255
+    ],
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnitCount": 2,
+    "startingMilitaryUnit": "Rifleman",
+    "startingWorkerUnit": "Worker",
+    "startingSettlerUnit": "Settler",
+    "settlerPopulation": 3,
+    "startPercent": 60,
+    "baseUnitBuyCost": 540
+  },
+  {
+    "name": "Modern era",
+    "researchAgreementCost": 600,
+    "iconRGB": [
+      255,
+      145,
+      150
+    ],
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnitCount": 3,
+    "startingMilitaryUnit": "Modern Infantry",
+    "startingWorkerUnit": "Worker",
+    "startingSettlerUnit": "Settler",
+    "settlerPopulation": 4,
+    "startPercent": 80,
+    "baseUnitBuyCost": 800
+  }
+]
